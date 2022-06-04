@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Shop</title>
+    <span>Grandes Ofertas en comederos</span>
+    <!-- Region y Moneda-->
+    <header>
+        <span>
+            <form>
+                <select>
+                    <option>Español</option>
+                    <option value="Ingles">Ingles</option>
+                    <option value="Portugues">Portugues</option>
+                </select>
+        </SPAN></form>
+        <span align="right">
+            <form>
+                <select name=currency id="currency">
+                    <option value="$ARG">$ARG</option>
+                    <option value="USD">USD</option>
+                    <option value="Euro">Euro</option>
+                    <option value="Reales">Reales</option>
+                </select>
+        </span></form>
+        <br><br>
+        <img src="img/logo.png" alt="Logo">
+        <nav align="right">
+            <span><a href="views/Categorias.html"><img SRC="IMG/pawprint4.png">Categorias</a></span>
+            <span><a href="views/Pets.html"><img SRC="IMG/pawprint4.png">Pets</a></span>
+            <span><a href="views/Nosotros.html"><img SRC="IMG/pawprint4.png">Nosotros</a></span>
+            <span><a href="views/Contactenos.html"><img SRC="IMG/pawprint4.png">Contactenos</a></span>
+        </nav>
+    </header>
+</head>
+
+<body>
+    <main>
+        <span><img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="bowls"></span>
+        <span align="center"> Es un Placer tenerte aqui </span>
+        <span align="center">¡Comederos en descuentos!</span>
+        <span align="center"><button>COMEDEROS</button></span>
+        <!-- Queriendo centrar-->
+        <span><img align="center" src="img/pawprint1.png" alt="huella"></span><br>
+        <h1 align="center">Productos Destacados</h1><br>
+        <nav align="center">
+            <span><a href="views/Comederos.html">Comederos - </a></span>
+            <span><a href="views/Accesorios.html">Pets - </a></span>
+            <span><a href="views/Comida.html">Nosotros</a></span>
+            <nav>
+                <span>
+                    <img height=350px src="img/churrasquito.png" alt="churrasquito">Juguete Churrasquito
+                    <img height=350px src="img/comedero.png" alt="comederos">Comedero para perro
+                    <img height=350px src="img/Huesito.png" alt="Huesito">Juguete Huesito
+                </span>
+                <br><br><br>
+    </main>
+    <section>
+        <!-- Formulario para revisar -->
+        <H2 align="center">CONTACTENOS</H2>
+        <form align="center" action="¿?" method="get">
+            <label align="center" for="fname">Nombre y Apellido</label>
+            <input align="center" type="text" id="fname" name="fname"><br><br>
+            <label align="center" class="wpcf7-form-control-wrap your-email">Ingrese su correo electronico</label>
+            <input align="center" type="email" name="your-email" value="" size="40"
+                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                aria-required="true" aria-invalid="false"></label><br><br>
+            <label align="center" for="number">Telefono</label>
+            <input align="center" type="number" id="number" name="number"><br>
+            <br><br>
+        </form>
+        <span><button align="center">Resetear</button></span>
+        <span><button align="center">Enviar</button></span>
+    </section>
+    <section style="background-color:chocolate;">
+        <span><img src="img/enviar-correo.png" alt="Correo">
+            <h3>Subscríbite para más novedades</h3>
+        </span>
+        <span>
+            <label align="center" class="wpcf7-form-control-wrap your-email">Ingrese su correo electronico</label>
+            <input align="center" type="email" name="your-email" value="" size="40"
+                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                aria-required="true" aria-invalid="false"></label><br><br>
+            <span><button align="center">Subscribíte</button></span>
+        </span>
+    </section>
+</body><br><br><br>
+
+<footer style="background-color:brown;">
+    <img src="img/localidad.png" atr="localidad">Localidad <br><br><br>
+    <img src="img/telefono.png" atr="Telefono">Telefono <br><br><br>
+    <img src="img/mail.png" atr="mail">e-Mail
+    <img align="right" src="img/logo.png" alt="Logo">
+</footer>
+
+<footer style="background-color:black;">
+<div style="color:white;text-align:center"> Todos los derechos reservados Front End</div>
+</footer>
+</html>
