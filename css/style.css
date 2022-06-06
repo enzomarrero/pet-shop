@@ -43,3 +43,16 @@ h1{
 .articulos{
     color: #666666;
 }
+.footer1 {
+background-color: #F0A83E;
+}
+
+.footer2{
+background-color: #3C2313;
+}
+
+.footer3{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
