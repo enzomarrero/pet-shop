@@ -10,80 +10,103 @@
 </head>
 
 <body>
-    <!--Emiliano-->
     <header>
         <div class="top">
-            <span>Grandes ofertas en comederos</span>
-            <label for="Idioma"></label>
-            <select name="Idioma" id="idioma">
-                <option value="Español">Español</option>
-                <option value="Ingles">Ingles</option>
-            </select>
-            <label for="Currency"></label>
-            <select name="Moneda" id="Moneda">
-                <option value="$ARG">$ARG</option>
-                <option value="USD">USD</option>
-                <option value="EURO">EURO</option>
-            </select>
+            <p>Grandes ofertas en comederos</p>
+            <div class="select">
+                <label for="Idioma"></label>
+                <select name="Idioma" id="idioma">
+                    <option value="Español">Español</option>
+                    <option value="Ingles">Ingles</option>
+                </select>
+                <label for="Currency"></label>
+                <select name="Moneda" id="Moneda">
+                    <option value="$ARG">$ARG</option>
+                    <option value="USD">USD</option>
+                    <option value="EURO">EURO</option>
+                </select>
+            </div>
         </div>
-        <nav>
+        <nav class="header">
             <img src="img/Logo.png" alt="logo">
-            <img src="img/pawprint4.png" alt=""><a href="Views/Categorias.html">Categorias</a>
-            <img src="img/pawprint4.png" alt=""><a href="Views/Pets.html"> Pets </a>
-            <img src="img/pawprint4.png" alt=""><a href="Views/Nosotros.html">Nosotros</a>
-            <img src="img/pawprint4.png" alt=""><a href="Views/Contactanos.html">Contactanos</a>
+            <ul class="primernav">
+                <a href="Views/Categorias.html"> <img src="img/pawprint4.png" alt="">Categorias</a>
+                <a href="Views/Pets.html"><img src="img/pawprint4.png" alt="">Pets </a>
+                <a href="Views/Nosotros.html"><img src="img/pawprint4.png" alt="">Nosotros</a>
+                <a href="Views/Contactanos.html"><img src="img/pawprint4.png" alt="">Contactanos</a>
+            </ul>
         </nav>
     </header>
 
 
     <main>
-        <!--Caja Imagen + Es un placer... + comdereso en of + boton Daniel-->
-        <div class="banner">
-            <h1>¡Es un placer tenerte aqui!</h1>
-            <h2>¡Comederos en descuento!
-            </h2>
-            <p>COMEDEROS</p>
-
-        </div>
-        <!-- imagenes + articulo + precio-->
-
+        <section class="banner">
+            <div class="text_banner">
+                <h1>¡Es un placer tenerte aqui!</h1>
+                <h2>¡Comederos en descuento!
+                </h2>
+                <button>COMEDEROS</button>
+            </div>
+        </section>
         <div>
-            <img src="img/pawprint1.png" alt="">
-            <h2 class="producto"> Productos Destacados </h2>
-            <span class="articulos">Comederos</span>
-            <span class="articulos">Accesorios</span>
-            <span class="articulos">Comida</span>
+            <section class="elements">
+                <img src="img/pawprint1.png" alt="">
+                <p class="?"> Productos Destacados </p>
+                <nav class="navcenter">
+                    <p class="?">Comederos</p>
+                    <p> - </p>
+                    <p class="?">Accesorios</p>
+                    <p> - </p>
+                    <p class="?">Comida</p>
+                </nav>
+            </section>
+            <section class="card">
+                <div>
+                    <img src="img/churrasquito.png" alt=""></img>
+                    <p class="producto">Juguete Churrasquito</p>
+                    <p class="precio">$150</p>
+                </div>
 
-            <div>
-                <img src="img/churrasquito.png" alt=""></img>
-                <p class="producto">Juguete Churrasquito</p>
-                <p class="precio">$150</p>
-            </div>
+                <div>
+                    <img src="img/comedero.png" alt=""></img>
+                    <p class="producto">Comedero para perro</p>
+                    <p class="precio">$250</p>
+                </div>
 
-            <div>
-                <img src="img/comedero.png" alt=""></img>
-                <p class="producto">Comedero para perro</p>
-                <p class="precio">$250</p>
-            </div>
-
-            <div>
-                <img src="img/Huesito.png" alt=""></img>
-                <p class="producto">Juguete Huesito</p>
-                <p class="precio">$650</p>
-            </div>
-
+                <div>
+                    <img src="img/Huesito.png" alt=""></img>
+                    <p class="producto">Juguete Huesito</p>
+                    <p class="precio">$650</p>
+                </div>
+            </section>
         </div>
 
+        <form class="completo">
+            <p class="cto">Contactenos</p>
+            <input class="formcomple" type="text" id="fname" name="fname" value="Nombre y Apellido">
+            <input class="formcomple" type="text" id="lname" name="lname" value="Ingresá tu correo electrónico">
+            <input class="formcomple" type="text" id="lname" name="lname" value="Telefono">
+            <input class="sr" type="submit" value="Enviar">
+            <input class="sr" type="reset" value="Resetear"></span>
+        </form>
 
-
-
+    
     </main>
 
     <footer>
         <section class="footer1">
-            <img src="img/enviar-correo.png" alt="enviar correo">
-            <p>Suscríbete para más novedades</p>
-            <span></span><span></span>
+            <article class="mail">
+                <img src="img/enviar-correo.png" alt="enviar correo">
+                <p>Suscríbete para más novedades</p>
+            </article>
+            <article>
+                <form>
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email">
+                    <input class="bt" type="submit" value="Suscribirme">
+                </form>
+                </article>
+        
         </section>
 
         <section class="footer2">
@@ -101,7 +124,7 @@
                     <p>Dirección de correo</p>
                 </li>
             </ul>
-            <img src="img/Logo.png" alt="logo">
+            <img class="logofooter" src="img/Logofooter.png" alt="logo">
         </section>
 
         <section class="footer3">

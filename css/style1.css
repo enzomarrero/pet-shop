@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,100;1,700&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;;
+}
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #222222;
+    line-height: 20px;
+    color: #F3F3F3;
+    font-size: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.gde{
+    font-size: 15px;
+}
+    .primernav{
+display: flex;
+justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+nav{
+    background-color: #F0A83E;
+    line-height: 62px;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+.banner{
+background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+background-size: cover;
+height: 605px;
+}
+h1{
+    color: #000000;
+    font-size: 30px;
+    background-color: #ffffff;
+    font-weight: 500;
+    width: 365px
+    }
+.centrado{
+    text-align: center;
+}
+.precio{
+    color:
+    #F0A83E ;   
+}
+
+.producto{
+    color: #3C2313;
+}
+
+.articulos{
+    color: #666666;
+}
+.footer1 {
+background-color: #F0A83E;
+}
+
+.footer2{
+background-color: #3C2313;
+}
+
+.footer3{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

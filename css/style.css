@@ -1,58 +1,204 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,100;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,100;1,700&display=swap");
 
-html{
-    font-family: 'Roboto', sans-serif;;
+:root {
+  --color-header: #000;
+  --color-secundario: #f0a83e;
+  --color-texto: #3c2313;
 }
-
-.top{
-    background-color: #222222;
-    line-height: 20px;
-    color: #F3F3F3;
-    font-size: 10px;
-}
-nav{
-    background-color: #F0A83E;
-    line-height: 62px;
-    color: #FFFFFF;
-    font-size: 13px;
-}
-.banner{
- background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
- background-size: cover;
-height: 605px;
-}
-h1{
-    color: #000000;
-    font-size: 30px;
-    background-color: #ffffff;
-    font-weight: 500;
-    width: 365px
-    }
-.centrado{
-    text-align: center;
-}
-.precio{
-    color:
-    #F0A83E ;   
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
 }
 
-.producto{
-    color: #3C2313;
+header div {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-header);
+  height: 25px;
+  color: #ffffff;
+  align-items: center;
+}
+header p {
+  font-size: 0.75em;
+  margin-left: 6em;
+}
+/*Quiero cambiar el fondo del select a negro, sin borde y con fuente blanca*/
+.select {
 }
 
-.articulos{
-    color: #666666;
+.header {
+  background-color: var(--color-secundario);
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.primernav {
+  display: flex;
+  gap: 0.75em;
+  margin-right: 2em;
+}
+.primernav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+.banner {
+  background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+  background-size: cover;
+  height: 550px;
+}
+.text_banner {
+  position: absolute;
+  display: inline-block;
+  top: 15em;
+  right: 5em;
+  text-align: center;
+}
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #000;
+  background-color: #ffffff;
+  border-radius: 0.2em;
+  padding: 0.2em;
+}
+button {
+  background-color: var(--color-secundario);
+  color: #ffffff;
+  border-radius: 0.2em;
+  border: none;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding: 0.75em;
+}
+
+.elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3em;
+  font-weight: 700;
+  color: var(--color-texto);
+}
+.navcenter {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  font-size: 0.5em;
+  font-weight: 400;
+  color: #000;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  text-align: center;
+}
+.producto {
+  background-color: #fbfaf6;
+  margin: 0;
+}
+.precio {
+  background-color: #fbfaf6;
+  color: #f0a83e;
+  font-weight: 600;
+  margin: 0;
 }
 .footer1 {
-background-color: #F0A83E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-secundario);
+  color: #ffffff;
+}
+.mail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.5em;
 }
 
-.footer2{
-background-color: #3C2313;
+article form input {
+  border-radius: 1em;
+  font-size: 1em;
+}
+.bt {
+  background-color: #3c2313;
+  border: none;
+  color: #ffffff;
+  padding: 0.5em;
 }
 
-.footer3{
-    background-color: black;
-    color: white;
-    text-align: center;
+.footer2 {
+  display: flex;
+  background-color: var(--color-texto);
+  color: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer3 {
+  background-color: #000;
+  color: #ffffff;
+  padding: 0.25em;
+  text-align: center;
+}
+.logofooter {
+  height: 2em;
+  margin-right: 5em;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+.completo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6em;
+}
+.formcomple {
+  font-size: 0.5em;
+  background-color: #3c2313;
+  color: #ffffff;
+  border-radius: 1em;
+  margin-top: 0.25em;
+  padding: 1em;
+  width: 40em;
+  margin: 0.5em;
+}
+.sr {
+  display: flex;
+  flex-direction: row;
+}
+.cto {
+  color: #3c2313;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+@media (max-width: 650px) {
+
+  header div{
+    display: none;
+}
+.primernav {
+  display: none;
+nav-right: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  text-align: space-around;
+
+
+
+
 }
